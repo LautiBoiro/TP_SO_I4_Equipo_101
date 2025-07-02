@@ -1,0 +1,21 @@
+Lautaro Boiro, Geronimo Bisanzio y Nicolas Morales
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+blue
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+ yellow
+C- ¿Qué color de fondo tiene su página en el MASTER?
+skyblue
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+Quedo el favicon de BETA
+E- ¿Algún integrante tuvo problemas al hacer el push?
+No hubo inconvenientes al hacer el push
+F- ¿Qué problemas surgieron?
+Sí, tuvimos un problema cuando uno de nosotros intentó hacer el merge desde TESTING a DESARROLLO. Git abrió una pantalla pidiendo que expliquemos por qué era necesario hacer ese merge. No sabíamos qué hacer en ese momento.
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+Borrar y volver a clonar el repositorio para evitar errores al momento de hacer el merge.
+H- ¿Qué sucede si cada uno utiliza el push -f?
+Si todos usan git push -f, se sobreescriben los cambios de los otros. El último en hacer push borra lo que subieron los demás.
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+Cada integrante debe hacer git pull antes de git push, para asegurarse de tener los cambios del otro.
